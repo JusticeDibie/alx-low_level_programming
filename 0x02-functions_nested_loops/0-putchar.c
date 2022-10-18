@@ -1,25 +1,20 @@
 #include "main.h"
+
 /**
-**main - Entry point
-*
-*@char : description, its a character type
-*@_putchar() : is a funcyion
-*Return: Always 0 (success)
-*
-*/
-
-
-char _putchar(char);
+ *  * main - prints to the console _putchar followed by a newline
+ *   * Return: - ALways 0 (success)
+ *    */
 int main(void)
 {
-char *ch = "_putchar";
-while (*ch)
-{
-_putchar(*ch);
-ch++;
-}
-{
-_putchar('\n');
-}
-return (0);
-}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
+}}
