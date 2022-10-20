@@ -20,5 +20,6 @@ largest = b;
 else
 {
 largest = c;
+}
 return (largest);
 }
