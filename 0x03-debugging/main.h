@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 void positive_or_negative(int i);
-nt largest_number(int a, int b, int c);
+int largest_number(int a, int b, int c);
 #include <stdio.h>
 
 #endif /* MAIN_H */
