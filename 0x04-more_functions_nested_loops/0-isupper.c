@@ -1,20 +1,18 @@
 #include "main.h"
 /**
- * *main - Entry point
- * *Return: Always 0 (Success)
- * */
-int main(void)
+* _isupper - checks uppercase
+* @c: parameter
+* Return: 0 if sucessful
+*/
+int _isupper(int c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
-	return (0);
+if (c >= 65 && c < 91)
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
 
