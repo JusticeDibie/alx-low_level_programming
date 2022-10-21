@@ -11,6 +11,8 @@ if (size > 0)
 {
 for (; i < size; i++)
 {
+for (j = 0; j < size; j++)
+{
 if (j < n)
 _putchar(' ');
 else
