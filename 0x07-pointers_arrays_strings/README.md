@@ -1,0 +1,1 @@
+My main pointer array
